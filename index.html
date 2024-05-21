@@ -67,7 +67,7 @@
       <h1><a href="/">贾志城的秘密基地</a></h1>
       <div id="subtitle-box">
         
-          <span id="subtitle">欢迎来到我的秘密基地！！！</span>
+        <span id="subtitle"></span>
         
       </div>
       <div>
@@ -82,9 +82,26 @@
 
 
 
+<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
+
 
 <!-- Subtitle -->
 
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['欢迎来到我的博客', '', ''],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
 <div id="main">
   <section class="outer">
   
@@ -347,7 +364,15 @@
     </li>
     
     <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+    </li>
+    
+    <li class="nav-item">
       <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友链</a>
     </li>
     
     <li class="nav-item">
